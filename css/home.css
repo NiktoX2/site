@@ -1,0 +1,20 @@
+body{
+	padding: 30px;
+	font-size: 30px;
+	word-break: break-all;
+}
+/*основа*/
+.all{
+	margin: 10px auto;
+	width: 1200px;
+}
+
+.center{
+	width: 600px;
+	margin: 10px;
+}
+
+.test{
+	width: 300px; /*ограниение по горезонтале*/
+	margin: 10px;
+}
