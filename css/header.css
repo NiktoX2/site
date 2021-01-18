@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    margin-block-start: auto;
+    margin-block-end: auto;
+	list-style-type: none;
+	padding-inline-start: 0px;
+}
+
+.div-header{
+	/* верх справа низ  слева */
+	margin: auto 10px auto auto;
+}
+
+a{
+	/* убрать поддчеркивание ссылки */
+	text-decoration: none;
+	/* цыет текста */
+	color: #fff;
+	/* размер текста */
+	font-size: 20px;
+}
+
+.a1{
+	/* верх справа низ  слева */
+	margin: 0px 0px 0px 10px;
+}
+
+a:hover{
+	/* поддчеркивание ссылки при наведение */
+    text-decoration: underline;
+}

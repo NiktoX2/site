@@ -1,0 +1,10 @@
+h1{
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+.div-main{
+	/* верх справа низ  слева */
+	margin: 0 auto 0px auto;
+	min-width: 500px;
+}
