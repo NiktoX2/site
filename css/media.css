@@ -96,14 +96,14 @@ Opera GX
 /*
 phone
 Google Chrome
-720-1360 = 720-1600
+360 [720-1600]
 */
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 360px){
     .size-main {
 		max-width: 320px;
     }
     .basement {
-    		margin: 15rem 0 0 0;
+    		margin: 20rem 0 0 0;
     }
 }
