@@ -41,13 +41,15 @@ a {
 	font-weight: 600;
 }
 
+.about{
+	margin: 0 0 0 4px;
+}
+
 li {
 	line-height: 2rem;
 	text-align: center;
-	margin: 0 1rem;
 	list-style-type: none;
-	min-height: 2rem;
-	min-width: 5rem;
+	min-width: 3rem;
 }
 
 ul {
@@ -60,6 +62,7 @@ ul {
 
 .basement {
 	text-align: center;
+	margin: 100px 0;
 }
 
 .com-name {
