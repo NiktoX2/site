@@ -4,6 +4,12 @@
     }
 }
 
+@media screen and (min-width: 960px) {
+    .size-main {
+        margin: 0 6rem;
+    }
+}
+
 @media screen and (max-height: 840px) {
     .basement {
         margin: 39.5rem 0 0 0;
