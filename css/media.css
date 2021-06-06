@@ -99,11 +99,11 @@ Google Chrome
 360 [720-1600]
 */
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 361px){
     .size-main {
 		max-width: 300px;
     }
     .basement {
-    		margin: 7rem 0 0 0;
+    		margin: 10rem 0 0 0;
     }
 }
