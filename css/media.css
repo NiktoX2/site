@@ -1,8 +1,21 @@
-@media screen and (min-width: 1280px) and (max-height: 1024px) {
+@media screen and (max-width: 1280px) and (max-height: 1024px) {
     .size-main {
         max-width: 1000px;
     }
+    .basement {
+        	margin: 50rem 0 0 0;
+    	}
 }
+
+@media screen and (max-width: 1024px) and (max-height: 1280px) {
+    .size-main {
+        max-width: 1000px;
+    }
+    .basement {
+        	margin: 65rem 0 0 0;
+    	}
+}
+
 
 @media screen and (max-width: 1279px) {
     .size-main {
