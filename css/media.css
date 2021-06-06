@@ -96,7 +96,7 @@ Opera GX
 /*
 phone
 Google Chrome
-360 [720-1600]
+480
 */
 
 @media screen and (max-width: 480px){
@@ -104,6 +104,6 @@ Google Chrome
 		max-width: 400px;
     }
     .basement {
-    		margin: 10rem 0 0 0;
+    		margin: 20rem 0 0 0;
     }
 }
