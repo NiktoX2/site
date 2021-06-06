@@ -101,9 +101,9 @@ Google Chrome
 
 @media screen and (max-width: 360px){
     .size-main {
-		max-width: 320px;
+		max-width: 300px;
     }
     .basement {
-    		margin: 20rem 0 0 0;
+    		margin: 15rem 0 0 0;
     }
 }
