@@ -8,11 +8,11 @@ body {
 	background-color: #000;
 	color: #fff;
 	cursor: url(../images/cursor/1.cur), default;
-	height: 100%
 }
 
 .size-main {
-	margin: 0 24rem;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 
 .div-header-menu, ul {
@@ -55,6 +55,5 @@ li {
 }
 
 .basement {
-	margin: 45.5rem 0 0 0;
 	text-align: center;
 }
