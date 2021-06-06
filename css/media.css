@@ -14,9 +14,12 @@
     .size-main {
         max-width: 500px;
     }
+    .basement {
+        margin: 0 0 0 0;
+    }
 }
 
-@media screen and (max-width: 425pxs) {
+@media screen and (max-width: 365px) {
     .size-main {
         max-width: 300px;
     }
@@ -25,8 +28,5 @@
     }
     .com-name {
         font-size: 1.1rem;
-    }
-    .basement {
-        margin: 0 0 0 0;
     }
 }
