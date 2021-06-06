@@ -15,3 +15,18 @@
         max-width: 500px;
     }
 }
+
+@media screen and (max-width: 365px) {
+    .size-main {
+        max-width: 300px;
+    }
+    a {
+        font-size: 1rem;
+    }
+    .com-name {
+        font-size: 1.1rem;
+    }
+    li {
+        margin: 0;
+    }
+}
