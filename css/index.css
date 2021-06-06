@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	radding: 0;
+	padding: 0;
 }
 
 body {
@@ -21,11 +21,6 @@ body {
 
 .div-header-menu, .div-main, .basement {
 	margin: 1rem;
-}
-
-li:hover, a:hover {
-	background: #fff;
-	color: #000;
 }
 
 .div-header-menu {
@@ -62,10 +57,15 @@ ul {
 
 .basement {
 	text-align: center;
-	margin: 100px 0;
+	margin: 45.5rem 0 0 0;
 }
 
 .com-name {
 	font-size: 1.5rem;
 	font-weight: 600;
+}
+
+.test:hover {
+	background: #fff;
+	color: #000;
 }
