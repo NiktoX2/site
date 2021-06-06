@@ -1,36 +1,60 @@
-/*главная*/
-body{
-	background:#2b2b2b;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	radding: 0;
+}
+
+body {
+	background-color: #000;
 	color: #fff;
-	margin: 20px;
+	cursor: url(../images/cursor/1.cur), default;
+	height: 100%
 }
-.div-header-menu{
+
+.size-main {
+	margin: 0 24rem;
+}
+
+.div-header-menu, ul {
 	display: flex;
-	min-height: 30px;
+}
+
+.div-header-menu, .div-main, .basement {
+	margin: 1rem;
+}
+
+li:hover, a:hover {
+	background: #fff;
+	color: #000;
+}
+
+.div-header-menu {
 	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #fff;
 }
-.test{
-	margin: 10px 0px 0px 0px;
-}
-/*меню*/
-.div-menu{
-	justify-content: end;
-}
-ul{
-	display: flex;
-	margin-block-start: auto;
-	margin-block-end: auto;
-	list-style-type: none;
-	padding-inline-start: 0px;
-}
-a{
+
+a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+li {
+	line-height: 2rem;
+	text-align: center;
+	margin: 0 1rem;
+	list-style-type: none;
+	min-height: 2rem;
+	min-width: 5rem;
+}
+
+.div-main {
 	font-size: 20px;
 }
-.a1{
-	margin: 0px 0px 0px 10px;
-}
-a:hover{
-	text-decoration: underline;
+
+.basement {
+	margin: 45.5rem 0 0 0;
+	text-align: center;
 }
