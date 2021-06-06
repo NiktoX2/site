@@ -14,9 +14,6 @@
     .size-main {
         max-width: 500px;
     }
-    .basement {
-        margin: 0 0 0 0;
-    }
 }
 
 @media screen and (max-width: 365px) {
@@ -29,4 +26,10 @@
     .com-name {
         font-size: 1.1rem;
     }
+}
+
+@media screen and (max-height: 850px) {
+	.basement {
+        	margin: 0 0 0 0;
+    	}
 }
