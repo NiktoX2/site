@@ -1,20 +1,16 @@
-/*16-9*/
+/*
+16-9
+*/
 
 @media screen and (max-width: 1250px) {
     .size-main {
         max-width: 1100px;
-    }
-    .basement {
-        	margin: 45.5rem 0 0 0;
     }
 }
 
 @media screen and (max-width: 1150px) {
     .size-main {
         max-width: 1000px;
-    }
-    .basement {
-        	margin: 45.5rem 0 0 0;
     }
 }
 
@@ -23,17 +19,11 @@
     .size-main {
         max-width: 900px;
     }
-    .basement {
-        	margin: 45.5rem 0 0 0;
-    }
 }
 
 @media screen and (max-width: 950px) {
     .size-main {
         max-width: 800px;
-    }
-    .basement {
-        	margin: 45.5rem 0 0 0;
     }
 }
 
@@ -41,21 +31,57 @@
     .size-main {
         max-width: 700px;
     }
-    .basement {
-        	margin: 45.5rem 0 0 0;
-    }
 }
 
 @media screen and (max-width: 750px) {
     .size-main {
         max-width: 600px;
     }
-    .basement {
-        	margin: 45.5rem 0 0 0;
+}
+
+@media screen and (max-width: 650px) {
+    .size-main {
+        max-width: 500px;
     }
 }
 
-/*3-4*/
+@media screen and (max-width: 550px) {
+    .size-main {
+        max-width: 400px;
+    }
+}
+
+
+/*хром
+937 с отображение закладок 
+969 без тображаение кладок, работает в хроб, эдж
+*/
+
+@media screen and (height: 937px) {
+	.basement {
+        	margin: 45rem 0 0 0;
+	}
+}
+
+@media screen and (height: 969px) {
+	.basement {
+        	margin: 47rem 0 0 0;
+	}
+}
+
+/*
+опера
+*/
+
+@media screen and (height: 970px) {
+	.basement {
+        	margin: 47rem 0 0 0;
+	}
+}
+
+/*
+3-4
+*/
 
 @media screen and (width: 1280px) and (height: 1024px) {
     .size-main {
@@ -66,19 +92,21 @@
     }
 }
 
-/*fon*/
+/*
+fon
+*/
 
-@media screen and (max-width: 720px) and  (height: 1600px){
+@media screen and (max-width: 720px) and  (height: 1360px){
     .size-main {
-        max-width: 320px;
+		max-width: 320px;
     }
     a {
-        font-size: 1rem;
+		font-size: 1rem;
     }
     .com-name {
-        font-size: 1.1rem;
+		font-size: 1.1rem;
     }
     .basement {
-        	margin: 25rem 0 0 0;
+    		margin: 15rem 0 0 0;
     }
 }
