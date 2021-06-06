@@ -99,7 +99,7 @@ Google Chrome
 360 [720-1600]
 */
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 480px){
     .size-main {
 		max-width: 300px;
     }
