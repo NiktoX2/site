@@ -52,7 +52,8 @@
 }
 
 
-/*хром
+/*
+Google Chrome
 937 с отображение закладок 
 969 без тображаение кладок, работает в хроб, эдж
 */
@@ -70,7 +71,7 @@
 }
 
 /*
-опера
+Opera GX
 */
 
 @media screen and (height: 970px) {
@@ -80,7 +81,7 @@
 }
 
 /*
-3-4
+5-4
 */
 
 @media screen and (width: 1280px) and (height: 1024px) {
@@ -93,18 +94,14 @@
 }
 
 /*
-fon
+phone
+Google Chrome
+720-1360 = 720-1600
 */
 
-@media screen and (max-width: 720px) and  (height: 1360px){
+@media screen and (max-width: 320px){
     .size-main {
 		max-width: 320px;
-    }
-    a {
-		font-size: 1rem;
-    }
-    .com-name {
-		font-size: 1.1rem;
     }
     .basement {
     		margin: 15rem 0 0 0;
