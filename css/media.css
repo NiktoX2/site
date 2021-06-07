@@ -14,7 +14,6 @@
     }
 }
 
-
 @media screen and (max-width: 1050px) {
     .size-main {
         max-width: 900px;
@@ -51,7 +50,6 @@
     }
 }
 
-
 /*
 Google Chrome
 937 с отображение закладок 
@@ -81,15 +79,16 @@ Opera GX
 }
 
 /*
-5-4
+1280*1024
+Google Chrome -  с отображение закладок 
 */
 
-@media screen and (width: 1280px) and (height: 1024px) {
+@media screen and (max-width: 1280px) and (height: 921px) {
     .size-main {
         max-width: 1000px;
     }
     .basement {
-        	margin: 50rem 0 0 0;
+        	margin: 45rem 0 0 0;
     }
 }
 
