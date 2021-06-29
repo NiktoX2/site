@@ -1,0 +1,122 @@
+/*
+--------------------------------------------------------------
+                           main
+                        dark-theme
+--------------------------------------------------------------
+*/
+.dark-theme{
+	background-color: #0D0D0D;
+	color: #fff;
+}
+/*
+--------------------------------------------------------------
+                       light-theme
+--------------------------------------------------------------
+*/
+.light-theme{
+	background-color: #fafafa;
+	color: #000;
+}
+/*
+--------------------------------------------------------------
+                           menu
+                        dark-theme
+--------------------------------------------------------------
+*/
+.dark-theme .hover-menu:hover {
+	background-color: #fff;
+	color: #000;
+}
+.dark-theme .name{
+	color: #fff;
+}
+.dark-theme a {
+	color: #fff;
+}
+.dark-theme .div-header-menu{
+	border-bottom: 1px solid #fff;
+}
+/*
+--------------------------------------------------------------
+                        light-theme
+--------------------------------------------------------------
+*/
+.light-theme .hover-menu:hover {
+	background-color: #000;
+	color: #fff;
+}
+.light-theme .name{
+	color: #000;
+}
+.light-theme a {
+	color: #000;
+}
+.light-theme .div-header-menu{
+	border-bottom: 1px solid #000;
+}
+/*
+--------------------------------------------------------------
+                       basement
+                      dark-theme
+--------------------------------------------------------------
+*/
+.dark-theme .svg-icon{
+	fill: #fff;
+}
+/*
+--------------------------------------------------------------
+                      light-theme
+--------------------------------------------------------------
+*/
+.light-theme .svg-icon{
+	fill: #000;
+}
+/*
+--------------------------------------------------------------
+                       scrollbar
+                      dark-theme
+--------------------------------------------------------------
+*/
+.dark-theme::-webkit-scrollbar {
+	width: 18px;
+	height: 8px;
+	background-color: #0D0D0D;
+}
+.dark-theme::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+.dark-theme::-webkit-scrollbar-corner {
+	background-color: #0D0D0D;
+}
+.dark-theme::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 9px;
+	border: 6px solid rgba(0,0,0,0);
+	background-clip: padding-box;
+}
+/*
+--------------------------------------------------------------
+				light-theme
+--------------------------------------------------------------
+*/
+.light-theme::-webkit-scrollbar {
+	width: 18px;
+	height: 8px;
+	background-color: #fafafa;
+}
+.light-theme::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+.light-theme::-webkit-scrollbar-corner {
+	background-color: #fafafa;
+}
+.light-theme::-webkit-scrollbar-thumb {
+	background-color: #000;
+	border-radius: 9px;
+	border: 6px solid rgba(0,0,0,0);
+	background-clip: padding-box;
+}

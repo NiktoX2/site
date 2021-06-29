@@ -57,15 +57,9 @@ Google Chrome
 */
 
 @media screen and (height: 937px) {
-	.basement {
-        	margin: 45rem 0 0 0;
-	}
 }
 
 @media screen and (height: 969px) {
-	.basement {
-        	margin: 47rem 0 0 0;
-	}
 }
 
 /*
@@ -73,10 +67,7 @@ Opera GX
 */
 
 @media screen and (height: 970px) {
-	.basement {
-        	margin: 47rem 0 0 0;
 	}
-}
 
 /*
 1280*1024
@@ -86,9 +77,6 @@ Google Chrome -  с отображение закладок
 @media screen and (max-width: 1280px) and (height: 921px) {
     .size-main {
         max-width: 1000px;
-    }
-    .basement {
-        	margin: 45rem 0 0 0;
     }
 }
 
@@ -101,8 +89,5 @@ Google Chrome
 @media screen and (max-width: 480px){
     .size-main {
 		max-width: 400px;
-    }
-    .basement {
-    		margin: 28rem 0 0 0;
     }
 }
