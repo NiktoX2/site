@@ -4,12 +4,6 @@
 	padding: 0;
 }
 
-body,
-.name,
-a:-webkit-any-link {
-	cursor: url(../images/cursor/1.cur), default;
-}
-
 .size-main {
 	margin: 0 auto;
 	max-width: 1200px;

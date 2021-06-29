@@ -73,6 +73,35 @@
 }
 /*
 --------------------------------------------------------------
+                        cursor
+                     .dark-theme
+--------------------------------------------------------------
+*/
+.dark-theme {
+	cursor: url(../images/cursor/white.png), default;
+}
+.dark-theme .name {
+	cursor: url(../images/cursor/white.png), default;
+}
+.dark-theme a:-webkit-any-link {
+	cursor: url(../images/cursor/white.png), default;
+}
+/*
+--------------------------------------------------------------
+                     .light-theme
+--------------------------------------------------------------
+*/
+.light-theme {
+	cursor: url(../images/cursor/black.png), default;
+}
+.light-theme .name {
+	cursor: url(../images/cursor/black.png), default;
+}
+.light-theme a:-webkit-any-link {
+	cursor: url(../images/cursor/black.png), default;
+}
+/*
+--------------------------------------------------------------
                        scrollbar
                       dark-theme
 --------------------------------------------------------------
