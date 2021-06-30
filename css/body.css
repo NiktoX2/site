@@ -5,18 +5,23 @@
 	border: none;
 }
 
+.div-header-menu {
+	justify-content: space-between;
+	align-items: center;
+	height: 45px;
+}
 
 
+.hover-menu{
+	width: 100px;
+	border-radius: 9px;
+	padding: 2px;
+}
 
 
 
 .div-header-menu, ul {
 	display: flex;
-}
-
-.div-header-menu {
-	justify-content: space-between;
-	align-items: center;
 }
 
 a {
@@ -30,10 +35,10 @@ a {
 }
 
 li {
-	line-height: 2rem;
+	line-height: 1.6rem;
 	text-align: center;
 	list-style-type: none;
-	min-width: 3rem;
+	min-width: 4rem;
 }
 
 ul {

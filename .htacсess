@@ -1,3 +1,2 @@
 RewriteEngine On
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTPS/
-RewriteRule ^index\.html$ https://niktox2.github.io/ [R=301,L]
+RewriteRule ^(.+)/?$ .html=$1 [L]
