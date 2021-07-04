@@ -1,0 +1,64 @@
+body {
+	background-color: #fafafa;
+	color: #000;
+}
+
+body,
+.name-menu,
+a:-webkit-any-link{
+	cursor: url(../../images/cursor/black.png), default;
+}
+
+.active{
+	background-color: #000;
+	color: #fff;
+}
+
+
+.p-menu:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+.name-menu{
+	color: #000;
+}
+
+a {
+	color: #000;
+}
+
+.div-menu{
+	border-bottom: 1px solid #000;
+}
+
+.a-basement{
+	color: #fafafa;
+}
+
+.svg-basement{
+	fill: #000;
+}
+
+::-webkit-scrollbar {
+	width: 18px;
+	height: 8px;
+	background-color: #fafafa;
+}
+
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #000;
+	border-radius: 9px;
+	border: 6px solid rgba(0,0,0,0);
+	background-clip: padding-box;
+}

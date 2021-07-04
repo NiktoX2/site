@@ -1,0 +1,43 @@
+.div-menu, ul {
+	display: flex;
+}
+
+.div-menu {
+	justify-content: space-between;
+	align-items: center;
+	height: 45px;
+}
+
+.name-menu {
+	font-size: 1.5rem;
+	font-weight: 600;
+	background-color: transparent;
+	border: none;
+}
+
+.ul-menu{
+	position: relative;
+}
+
+.li-menu {
+	line-height: 1.6rem;
+	text-align: center;
+	list-style-type: none;
+	min-width: 4rem;
+}
+
+.a-menu {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.p-menu{
+	width: 100px;
+	border-radius: 9px;
+	padding: 2px;
+}
+
+.about-menu{
+	width: 64px;
+}

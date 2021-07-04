@@ -4,15 +4,20 @@
 	padding: 0;
 }
 
-.size-main {
+.div-menu,
+.div-body,
+.div-basement,
+.text{
+	padding: 10px 0 0 0;
+}
+/*-----------------*/
+.div-main {
 	margin: 0 auto;
 	max-width: 1200px;
 	min-height: 1000px;
 }
+/*-----------------*/
 
-.div-header-menu,
-.div-main,
-.basement,
-.text{
-	padding: 10px 0 0 0;
+.indent{
+	margin: 0 0 0 10px;
 }

@@ -4,32 +4,32 @@
 	<title>Новый король</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="../images/iso/ico-site.png" type="image/x-icon">
+	<link rel="icon" href="../images/iso/favicon.png" type="image/x-icon" id="favicon">
 	<link rel="stylesheet" href="../css/main.css">
 	<link rel="stylesheet" href="../css/body.css">
 	<link rel="stylesheet" href="../css/story.css">
-	<link rel="stylesheet" href="../css/theme.css">
+	<link rel="stylesheet" href="../css/theme/dark.css" id="theme">
 	<link rel="stylesheet" href="../css/media.css">
 </head>
-<body class="theme dark-theme">
+<body>
 	<div class="size-main">
 		<div class="div-header-menu">
-			<button class="theme-button name" title="Нажми">Lost Room</button>
+			<button class="name" title="Нажми" onclick="light()">Lost Room</button>
 			<div class="div-menu">
 				<nav>
 					<ul>
 						<li>
-							<a href="../index.html">
+							<a href="index.html">
 								<p class="hover-menu">Главная</p>
 							</a>
 						</li>
 						<li>
-							<a href="../html/story.html">
-								<p class="hover-menu">Рассказ</p>
+							<a href="story.html">
+								<p class="hover-menu active">Рассказ</p>
 							</a>
 						</li>
 						<li>
-							<a href="../html/info.html">
+							<a href="info.html">
 								<p class="hover-menu">Об</p>
 							</a>
 						</li>
@@ -72,6 +72,6 @@
 			</div>
 		</div>
 	</div>
-<script src="../js/theme2.js"></script>
+<script src="../js/theme.js"></script>
 </body>
 </html>

@@ -1,0 +1,63 @@
+body {
+	background-color: #121212;
+	color: #fff;
+}
+
+body,
+.name-menu,
+a:-webkit-any-link{
+	cursor: url(../../images/cursor/white.png), default;
+}
+
+.active{
+	background-color: #fff;
+	color: #000;
+}
+
+.p-menu:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.name-menu {
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+.div-menu{
+	border-bottom: 1px solid #fff;
+}
+
+.a-basement{
+	color: #121212;
+}
+
+.svg-basement{
+	fill: #fff;
+}
+
+::-webkit-scrollbar {
+	width: 18px;
+	height: 8px;
+	background-color: #0D0D0D;
+}
+
+::-webkit-scrollbar-button {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: #0D0D0D;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #fff;
+	border-radius: 9px;
+	border: 6px solid rgba(0,0,0,0);
+	background-clip: padding-box;
+}
