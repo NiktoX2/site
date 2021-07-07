@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="../css/theme/dark.css" id="theme">
 </head>
 <body>
-	<div class="div-main">
+	<div class="div-main" id="main">
 		<div class="div-menu">
 			<button class="name-menu" title="Нажми" onclick="light()">Lost Room</button>
 			<div>
@@ -47,7 +47,7 @@
 		<div class="div-body">
 			<div>
 				<div class="outline">
-					<h2><a href="../anime/tate-no-yuusha-no-nariagari.html">Восхождение героя щита</a></h2>
+					<h2><a href="anime/tate-no-yuusha-no-nariagari.html">Восхождение героя щита</a></h2>
 					<dl>
                 				<dt class="story-p">Автор:</dt>
                 				<dd class="inline">NiktoX2(НиктоХ2)</dd>
@@ -84,22 +84,23 @@
 		</div>
 	</div>
 <script>
-var css = document.getElementById("theme");
-var favicon = document.getElementById("favicon");
-var color = 1
-function light(){
-	if (color === 1){
-		css.href = "css/theme/light.css";
-		favicon.href = "images/favicon/favicon-white.png";
-		color = 0
+	var css = document.getElementById("theme");
+	var favicon = document.getElementById("favicon");
+	var color = 1
+	function light(){
+		if (color === 1){
+			css.href = "css/theme/light.css";
+			favicon.href = "images/favicon/favicon-white.png";
+			color = 0
+		}
+		else
+		{
+			css.href = "css/theme/dark.css";
+			favicon.href = "images/favicon/favicon-black.png";
+			color = 1
+		}
 	}
-	else
-	{
-		css.href = "css/theme/dark.css";
-		favicon.href = "images/favicon/favicon-black.png";
-		color = 1
-	}
-}
 </script>
+<script type="text/javascript" src="../js/window.js"></script>
 </body>
 </html>
