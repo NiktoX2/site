@@ -10,11 +10,6 @@ a:-webkit-any-link{
 	cursor: url(../../images/cursor/white.png), default;
 }
 
-.active{
-	background-color: #fff;
-	color: #000;
-}
-
 .p-menu:hover {
 	background-color: #fff;
 	color: #000;
