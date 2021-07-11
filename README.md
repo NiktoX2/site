@@ -1,3 +1,3 @@
-# Site / мой личный сайт
-Первый опыт в этом деле
+# Site / NiktoX2
+Первый опыт в создание сайта
 https://niktox2.github.io/Site
