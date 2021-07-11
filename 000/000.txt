@@ -1,0 +1,4 @@
+<pre>   Текст</pre>
+			<code>Текст<br>Текст</code>
+			<iframe src="../000/000.html" seamless style="width: 100%; height: 45px; border-width: 0;"></iframe>
+			<a href="../000/000.txt" target="_blank">Тексто_файл</a>
